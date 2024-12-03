@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".vistas.Historial_fragment">
+    android:id="@+id/main"
+    >
 
     <!-- Contenedor principal con margen -->
     <LinearLayout
@@ -33,10 +34,10 @@
 
         <!-- Botón para borrar historial -->
         <Button
-            android:id="@+id/button_clear_historial"
+            android:id="@+id/btn_agregar_datos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Limpiar Historial"
+            android:text="@string/agregar_datos"
             android:layout_marginTop="8dp"
             android:textColor="@android:color/white" />
     </LinearLayout>
